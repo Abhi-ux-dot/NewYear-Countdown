@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1563209259-2819dbb22d93?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80");
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 5rem;
+  margin: 0 2rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
